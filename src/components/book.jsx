@@ -11,7 +11,6 @@ const BookingSection = () => {
         <div className="booking-engine">
           {/* Replaced Big Title with a functional header */}
           <div className="section-header">
-            <span className="gold-icon">📍</span>
             <h3>Start Your Journey</h3>
           </div>
 
@@ -28,14 +27,12 @@ const BookingSection = () => {
               <div className="input-large">
                 <label>FROM</label>
                 <div className="input-wrapper">
-                  <span className="input-icon">📅</span>
                   <input type="date" />
                 </div>
               </div>
               <div className="input-large">
                 <label>TO</label>
                 <div className="input-wrapper">
-                  <span className="input-icon">📅</span>
                   <input type="date" />
                 </div>
               </div>
@@ -55,19 +52,14 @@ const BookingSection = () => {
         {/* RIGHT SIDE: Upcoming with Images */}
         <div className="upcoming-widget">
           <div className="section-header">
-            <span className="gold-icon">clock</span>
-            <h3>UPCOMING</h3>
+            <h3>🕝 UPCOMING</h3>
           </div>
           
           <div className="car-list">
             
             {/* CAR 1: Audi */}
             <div className="car-card">
-              <img 
-                src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?q=80&w=200&auto=format&fit=crop" 
-                alt="Audi A4" 
-                className="car-thumb" 
-              />
+              <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?q=80&w=200&auto=format&fit=crop" alt="Audi A4" className="car-thumb" />
               <div className="car-details">
                 <div className="car-top">
                   <h4>Audi A4</h4>
@@ -82,11 +74,7 @@ const BookingSection = () => {
 
             {/* CAR 2: Toyota */}
             <div className="car-card">
-              <img 
-                src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?q=80&w=200&auto=format&fit=crop" 
-                alt="Toyota RAV4" 
-                className="car-thumb" 
-              />
+              <img src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?q=80&w=200&auto=format&fit=crop"  alt="Toyota RAV4" className="car-thumb" /> 
               <div className="car-details">
                  <div className="car-top">
                   <h4>Toyota RAV4</h4>
@@ -101,11 +89,7 @@ const BookingSection = () => {
 
              {/* CAR 3: Honda */}
              <div className="car-card">
-              <img 
-                src="https://images.unsplash.com/photo-1617788138017-80ad40651399?q=80&w=200&auto=format&fit=crop" 
-                alt="Honda Civic" 
-                className="car-thumb" 
-              />
+              <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399?q=80&w=200&auto=format&fit=crop" alt="Honda Civic" className="car-thumb" />
               <div className="car-details">
                  <div className="car-top">
                   <h4>Honda Civic</h4>
