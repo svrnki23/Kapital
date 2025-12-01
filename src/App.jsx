@@ -1,8 +1,6 @@
 // import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import Navbar from './components/Navbar';
-import './App.css'
+import Hero from './components/Hero';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -12,7 +10,7 @@ function App() {
     <div>
       {/* adding components iteratively as i build them */}
       <Navbar /> 
-      <h1>Testing webpage</h1>
+      <Hero />
     </div>
     </>
   );
