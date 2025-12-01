@@ -1,6 +1,6 @@
 .booking-section {
   /* Keep the background image from before */
-  background-image: url('range.png');
+  /* background-image: url('range.png');  */
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -24,7 +24,7 @@
   box-shadow: 0 50px 100px -20px rgba(0,0,0,0.8);
 }
 
-/* --- LEFT: BIG BOOKING ENGINE --- */
+/*  LEFT: BIG BOOKING ENGINE*/
 .booking-engine {
   flex: 3; /* Takes more space */
   padding: 50px;
@@ -79,12 +79,12 @@
 .input-large input {
   background: transparent;
   border: none;
-  color: white;
+  color: #FFD700;
   width: 100%;
   padding: 15px 0;
   font-size: 1.2rem; /* BIG TEXT */
   outline: none;
-  transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* Date Row */
@@ -131,7 +131,7 @@ input[type='date']{
   transform: translateY(-2px);
 }
 
-/* --- RIGHT: UPCOMING LIST --- */
+/*  RIGHT: UPCOMING LIST  */
 .upcoming-widget {
   flex: 2; /* Takes less space than booking */
   background: rgba(20, 20, 20, 0.6);

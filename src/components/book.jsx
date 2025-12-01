@@ -4,7 +4,7 @@ import './book.css';
 
 const BookingSection = () => {
   return (
-    <section className="booking-section">
+    <section className="booking-section" style={{backgroundImage: "url('/range.png')"}}>
       <div className="glass-panel">
         
         {/* LEFT SIDE: Big Booking Engine */}
