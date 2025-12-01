@@ -45,6 +45,12 @@
   margin-bottom: 25px;
 }
 
+::placeholder{
+    color: #FFD700;
+    opacity: 1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .input-large label {
   color: #FFD700;
   font-size: 1rem;
@@ -85,6 +91,13 @@
 .dates-row {
   display: flex;
   gap: 20px;
+}
+
+input[type='date']{
+    color: #FFD700;
+    color-scheme: dark; 
+    font-family: 'Courier New', Courier, monospace;
+    /* This will tell the browseer that this ia a dark theme so the pop-up calender will also be dark mode automatically */
 }
 .dates-row .input-large { flex: 1; }
 
