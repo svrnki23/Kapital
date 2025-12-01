@@ -1,8 +1,11 @@
 /* src/index.css */
 :root {
+  /* primary color palette */
   --primary-gold: #FFD700;
   --primary-red: #E60000;
   --bg-black: #050505;
+
+  
   --glass-bg: rgba(20, 20, 20, 0.6);
   --glass-border: rgba(255, 255, 255, 0.1);
   --text-white: #FFFFFF;
