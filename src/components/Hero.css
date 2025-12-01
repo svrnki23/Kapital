@@ -45,11 +45,11 @@
     cursor: pointer;
     margin-top: 20px;
 
-    transition: transform 0.2s, background-color 0.2s;
+    transition: transform 0.7s, background-color 0.7s;
 }
 
 .hero-content button:hover{
-    background-color: #FDD017;
+    background-color: black;
     transform: scale(1.05);
 }
 
