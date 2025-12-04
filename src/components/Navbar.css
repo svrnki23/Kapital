@@ -40,7 +40,17 @@
     height: 2px;
     background-color: white;
     margin-bottom: 3px;
-    background-color: #FDD017;
+    /* THE SHINY GOLD GRADIENT */
+    background: linear-gradient(45deg,
+        #bf953f,
+        #fcf6ba,
+        #b38728,
+        #fbf5b7,
+        #aa771c
+    );
+    
+    /* Optional: Add a subtle glow to make it look metallic */
+    box-shadow: 0 0 2px rgba(191, 149, 63, 0.5);
 }
 
 .nav-center{
@@ -52,7 +62,7 @@
 }
 
 .nav-center h1{
-    color: #FDD017; /*Gold */
+    /* color: #FDD017; Gold */
     margin: 0;
     font-size: 45px;
     letter-spacing: 10px;
@@ -74,5 +84,5 @@
     border: none;
     cursor: pointer;
     font-size: 1.5rem;
-    color: #FDD017;
+    /* color: #FDD017; */
 }

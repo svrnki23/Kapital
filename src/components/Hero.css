@@ -27,12 +27,12 @@
     line-height: 1.1;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 6px;
-    color: #FDD017;
+    /* color: #FDD017; */
 }
 
 .hero-content button {
     background-color: #E60000;
-    color: #FDD017;
+    /* color: #FDD017; */
 
     padding: 12px 35px;
     font-size: 25px;
@@ -46,6 +46,36 @@
     margin-top: 20px;
 
     transition: transform 0.2s, background-color 0.2s;
+}
+
+/* 2. THE TEXT (The Shiny Gold Gradient) */
+.hero-content button .btn-text {
+    /* Font Settings */
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    /* THE GOLD GRADIENT MAGIC */
+    background: linear-gradient(
+        45deg,
+        #bf953f,
+        #fcf6ba,
+        #b38728,
+        #fbf5b7,
+        #aa771c
+    );
+    
+    /* Clip the background to the text */
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    /* Make text transparent so the gold shows through */
+    color: transparent; 
+    
+    /* Optional: Drop shadow to make it pop off the red */
+    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.3));
 }
 
 .hero-content button:hover{

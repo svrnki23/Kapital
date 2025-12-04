@@ -19,11 +19,13 @@ const Hero = () => {
 
             <div className="hero-content">
                 <div className="accent-line"></div>
-                <h1>
+                <h1 className="shiny-gold">
                     EVERY CAR. <br />
                     EVERY JOURNEY.
                 </h1>
-                <button onClick={scrollToBooking} className="btn-outline">Book Now</button>
+                <button onClick={scrollToBooking}>
+                    <span className="btn-text">Book Now</span>
+                </button>
             </div>
         </section>
     );

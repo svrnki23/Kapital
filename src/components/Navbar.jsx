@@ -17,7 +17,7 @@ const Navbar = () => {
 
             {/* Center section of the navbar */}
             <div className="nav-center">
-                <h1>KAPITAL</h1>
+                <h1 className="shiny-gold">KAPITAL</h1>
             </div>
 
             {/* Right section of the navbar */}
@@ -29,13 +29,25 @@ const Navbar = () => {
                         height="32" 
                         viewBox="0 0 24 24" 
                         fill="none" 
-                        stroke="currentColor" 
-                        strokeWidth="2" 
+                        strokeWidth="2.5" 
                         strokeLinecap="round" 
                         strokeLinejoin="round"
                     >
-                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                        <circle cx="12" cy="7" r="4"></circle>
+                        {/* 1. DEFINE THE GOLD PAINT */}
+                        <defs>
+                            <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stopColor="#bf953f" />
+                                <stop offset="25%" stopColor="#fcf6ba" />
+                                <stop offset="50%" stopColor="#b38728" />
+                                <stop offset="75%" stopColor="#fbf5b7" />
+                                <stop offset="100%" stopColor="#aa771c" />
+                            </linearGradient>
+                        </defs>
+
+                        {/* 2. APPLY THE PAINT TO THE SHAPES */}
+                        {/* Notice stroke="url(#goldGradient)" */}
+                        <path stroke="url(#goldGradient)" d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle stroke="url(#goldGradient)" cx="12" cy="7" r="4"></circle>
                     </svg>
                 </button>
             </div>
