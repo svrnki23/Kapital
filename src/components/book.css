@@ -16,7 +16,7 @@
   width: 100%;
   max-width: 1200px;
   background: transparent; /* Darker for better contrast */
-  backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px); 
   border: black;
   border-radius: 30px;
   padding: 0; /* Reset padding to manage internal spacing */
@@ -34,7 +34,7 @@
 }
 
 .section-header h3 {
-  color: #FFD700;
+  /* color: #FFD700; */
   margin: 0 0 30px 0;
   font-size: 1.5rem;
   text-transform: uppercase;

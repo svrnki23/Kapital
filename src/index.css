@@ -14,11 +14,12 @@
 
 .shiny-gold{
   background: linear-gradient(
-    45deg,
+    90deg,
     #bf953f,
-    #fcf6ba,
+    #fbf5b7,
     #b38728,
     #fbf5b7,
+    #aa771c,
     #aa771c
   );
 
@@ -30,10 +31,9 @@
   color: transparent;
   
   /* 4. Make it pop with a subtle shadow */
-  text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.2);
+  filter: drop-shadow(0px 0px 2px rgba(255, 230, 100, 0.6));
   
-  /* Optional: Make it bold so there's more surface area for the shine */
-  font-weight: 800;
+  font-weight: 8000;
 }
 
 body {

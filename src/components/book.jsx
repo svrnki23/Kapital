@@ -11,7 +11,7 @@ const BookingSection = () => {
         <div className="booking-engine">
           {/* Replaced Big Title with a functional header */}
           <div className="section-header">
-            <h3>Start Your Journey</h3>
+            <h3 className='shiny-gold'>Start Your Journey</h3>
           </div>
 
           <div className="booking-form">
@@ -52,7 +52,7 @@ const BookingSection = () => {
         {/* RIGHT SIDE: Upcoming with Images */}
         <div className="upcoming-widget">
           <div className="section-header">
-            <h3>🕝 UPCOMING</h3>
+            <h3 className='shiny-gold'>🕝 UPCOMING</h3>
           </div>
           
           <div className="car-list">
