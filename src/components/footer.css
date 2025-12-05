@@ -1,0 +1,62 @@
+.footer-container{
+    background-color: #050505;
+    /* color: #a0a0a0; */
+    padding: 80px 20px 20px; /*paddning - top sides and bottom */
+    border-top: 1px solid rgba(255, 215, 0, 0.2);
+    font-family: Didot;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; /* Stacks on mobile */
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+/* Brand section */
+.footer-brand{
+    flex: 2;
+    min-width: 300px;
+}
+
+.footer-brand h2{
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 200px;
+    letter-spacing: 2px;
+}
+
+.footer-brand p{
+    line-height: 1.6;
+    margin-top: -150px;
+    max-width: 400px;
+    font-size: 20px;
+}
+
+/* Links sections */
+.footer-column{
+    flex: 1;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-column h4{
+    /* color: #a0a0a0; */
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.5s;
+}
+
+/* Footer bar */
+.footer-bottom-bar{
+    text-align: center;
+    border-top: 1px solid #1a1a1a;
+    padding-top: 20px;
+    font-size: 2rem;
+    color: #555;
+}
