@@ -59,23 +59,27 @@
 
     /* THE GOLD GRADIENT MAGIC */
     background: linear-gradient(
-        45deg,
-        #bf953f,
-        #fcf6ba,
-        #b38728,
-        #fbf5b7,
-        #aa771c
+    90deg,
+    #bf953f,
+    #fbf5b7,
+    #b38728,
+    #fbf5b7,
+    #aa771c,
+    #fbf5b7,
+    #aa771c
     );
-    
-    /* Clip the background to the text */
+
+    /* 2. Clip the background to the text shape */
     -webkit-background-clip: text;
     background-clip: text;
     
-    /* Make text transparent so the gold shows through */
-    color: transparent; 
+    /* 3. Make the text transparent so the background shows through */
+    color: transparent;
     
-    /* Optional: Drop shadow to make it pop off the red */
-    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.3));
+    /* 4. Make it pop with a subtle shadow */
+    filter: drop-shadow(0px 0px 2px rgba(255, 230, 100, 0.6));
+    
+    font-weight: 8000;
 }
 
 .hero-content button:hover{

@@ -41,13 +41,20 @@
     background-color: white;
     margin-bottom: 3px;
     /* THE SHINY GOLD GRADIENT */
-    background: linear-gradient(45deg,
-        #bf953f,
-        #fcf6ba,
-        #b38728,
-        #fbf5b7,
-        #aa771c
+    background: linear-gradient(
+    90deg,
+    #bf953f,
+    #fbf5b7,
+    #b38728,
+    #fbf5b7,
+    #aa771c,
+    #aa771c
     );
+    
+    /* 4. Make it pop with a subtle shadow */
+    filter: drop-shadow(0px 0px 2px rgba(255, 230, 100, 0.6));
+    
+    font-weight: 80;
     
     /* Optional: Add a subtle glow to make it look metallic */
     box-shadow: 0 0 2px rgba(191, 149, 63, 0.5);
