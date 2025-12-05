@@ -25,7 +25,8 @@
     font-size: 40px;
     text-transform: uppercase;
     line-height: 1.1;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: Didot;
     letter-spacing: 6px;
     /* color: #FDD017; */
 }
@@ -35,11 +36,7 @@
     /* color: #FDD017; */
 
     padding: 12px 35px;
-    font-size: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
     border: none;
-    font-weight: 300;
     text-transform: uppercase;
     /* letter-spacing: 4px; */
     cursor: pointer;
@@ -52,7 +49,8 @@
 .hero-content button .btn-text {
     /* Font Settings */
     font-size: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: Didot;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 4px;

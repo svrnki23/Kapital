@@ -39,7 +39,8 @@
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-family: Didot;
 }
 
 .input-large {
@@ -49,7 +50,8 @@
 ::placeholder{
     /* color: #FFD700; */
     opacity: 1;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: Didot;
 }
 
 .input-large label {
@@ -58,7 +60,8 @@
   margin-bottom: 10px;
   display: block;
   letter-spacing: 2px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-family: Didot;
 }
 
 .input-wrapper {
@@ -85,7 +88,8 @@
   padding: 15px 0;
   font-size: 1.2rem; /* BIG TEXT */
   outline: none;
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: Didot;
 }
 
 /* Date Row */
@@ -97,7 +101,8 @@
 input[type='date']{
     /* color: #FFD700; */
     color-scheme: dark; 
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: Didot;
     /* This will tell the browseer that this ia a dark theme so the pop-up calender will also be dark mode automatically */
 }
 .dates-row .input-large { flex: 1; }
@@ -126,7 +131,8 @@ input[type='date']{
   justify-content: center;
   gap: 10px;
   transition: transform 0.8s, background 0.8s;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-family: Didot;
 }
 
 .btn-primary:hover {
@@ -140,7 +146,9 @@ input[type='date']{
   background: rgba(20, 20, 20, 0.6);
   padding: 40px;
   min-width: 350px;
-  font-family:'Courier New', Courier, monospace;
+  /* font-family:'Courier New', Courier, monospace; */
+  font-family: Didot;
+  letter-spacing: 2px;
 }
 
 .car-list {
@@ -220,7 +228,8 @@ input[type='date']{
   border-radius: 10px;
   cursor: pointer;
   transition: 0.6s;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-family: Didot;
   font-size: 25px;
   letter-spacing: 4px;
   font-weight: 100;
