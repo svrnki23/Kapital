@@ -50,7 +50,7 @@ const BookingSection = () => {
         {/* RIGHT SIDE: Upcoming with Images */}
         <div className="upcoming-widget">
           <div className="section-header">
-            <h3 className='shiny-gold'>🕝 UPCOMING</h3>
+            <h3 className='shiny-gold'>UPCOMING</h3>
           </div>
           
           <div className="car-list">

@@ -116,7 +116,7 @@ input[type='date']{
 
 .btn-primary {
   flex: 1;
-  background: #660000;
+  background: #D2042D;
   /* background: #FF0000; alternative red */
   color: #FFD700;
   border: none;
@@ -216,7 +216,7 @@ input[type='date']{
     color: #4CAF50; 
 }
 .status.reserved { 
-    color: orangered; 
+    color: #FF4F00; 
 }
 
 .view-all-btn {
