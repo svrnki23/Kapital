@@ -216,7 +216,7 @@ input[type='date']{
     color: #4CAF50; 
 }
 .status.reserved { 
-    color: #ff9800; 
+    color: orangered; 
 }
 
 .view-all-btn {
