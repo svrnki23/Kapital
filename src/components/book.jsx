@@ -39,10 +39,12 @@ const BookingSection = () => {
             </div>
 
             <div className="action-row">
-              <button className="btn-primary shiny-gold">
-                <span className="btn-icon">🔍</span> BROWSE
+              <button className="btn-primary">
+                <span className='shiny-gold'>BROWSE</span>
               </button>
-              <button className="btn-primary shiny-gold">ASK AI</button>
+              <button className="btn-primary">
+                <span className='shiny-gold'>ASK AI</span>
+              </button>
             </div>
           </div>
         </div>
