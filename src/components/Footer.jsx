@@ -26,10 +26,10 @@ const Footer = () => {
                 {/* Column 3 - legal support  */}
                 <div className="footer-column">
                     <h4 className="shiny-gold">SUPPORT</h4>
-                    <a className="shiny-gold" href="#help">Help Center</a>
-                    <a className="shiny-gold" href="#terms">Terms & Conditions</a>
-                    <a className="shiny-gold" href="#privacy">Privacy Policy</a>
-                    <a className="shiny-gold" href="#contact">Contact</a>
+                    <a className="shiny-gold" href="#help">HELP CENTER</a>
+                    <a className="shiny-gold" href="#terms">TERMS & CONDITIONS</a>
+                    <a className="shiny-gold" href="#privacy">PRIVACY POLICY</a>
+                    <a className="shiny-gold" href="#contact">CONTACT</a>
                 </div>
 
                 {/* Column 4 - Contact info
@@ -46,7 +46,7 @@ const Footer = () => {
 
             {/* The bottom kapital bar */}
             <div className="footer-bottom-bar">
-                <p className="shiny-gold">&copy; 2024 KAPITAL. All Rights Reserved.</p>
+                <p className="shiny-gold">&copy; 2025 KAPITAL. All Rights Reserved.</p>
             </div>
 
         </footer>
