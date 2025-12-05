@@ -111,7 +111,8 @@ input[type='date']{
 
 .btn-primary {
   flex: 1;
-  background: #E60000;
+  background: #660000;
+  /* background: #FF0000; alternative red */
   color: #FFD700;
   border: none;
   padding: 20px;

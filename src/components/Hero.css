@@ -31,7 +31,7 @@
 }
 
 .hero-content button {
-    background-color: #E60000;
+    background-color: #660000;
     /* color: #FDD017; */
 
     padding: 12px 35px;
@@ -39,9 +39,9 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
     border: none;
-    font-weight: 800;
+    font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    /* letter-spacing: 4px; */
     cursor: pointer;
     margin-top: 20px;
 
@@ -55,7 +55,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 
     /* THE GOLD GRADIENT MAGIC */
     background: linear-gradient(
