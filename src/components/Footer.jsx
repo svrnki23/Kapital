@@ -12,7 +12,6 @@ const Footer = () => {
                     <p className="shiny-gold">Experience the thrill of the drive. Premium luxury vehicles available at your command.</p>
                 </div>
 
-
                 {/* Column 2 - explore links */}
                 <div className="footer-column">
                     <h4 className="shiny-gold">EXPLORE</h4>
@@ -21,7 +20,6 @@ const Footer = () => {
                     <a className="shiny-gold" href="#membership">MEMBERSHIP</a>
                     <a className="shiny-gold" href="#about">ABOUT</a>
                 </div>
-
 
                 {/* Column 3 - legal support  */}
                 <div className="footer-column">
@@ -40,19 +38,14 @@ const Footer = () => {
                     {/* <br /> */}
                     {/* <p className="shiny-gold">(123)-456-7890</p>
                 </div> */}
-
-
             </div>
 
             {/* The bottom kapital bar */}
             <div className="footer-bottom-bar">
                 <p className="shiny-gold">&copy; 2025 KAPITAL. All Rights Reserved.</p>
             </div>
-
         </footer>
     )
-
-
 }
 
 

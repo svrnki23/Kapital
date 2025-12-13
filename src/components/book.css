@@ -116,13 +116,13 @@ input[type='date']{
 
 .btn-primary {
   flex: 1;
-  background: #D2042D;
+  background: black;
   /* background: #FF0000; alternative red */
   color: #FFD700;
   border: none;
   padding: 20px;
   font-size: 25px;
-  font-weight: 200;
+  font-weight: 6000;
   border-radius: 12px;
   letter-spacing: 2px;
   cursor: pointer;
