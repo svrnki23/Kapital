@@ -93,11 +93,6 @@
   font-family: Didot;
 }
 
-/* On hover, turn the title Gold */
-.feature-card:hover .feature-title {
-  color: #FFD700;
-}
-
 .feature-desc {
   line-height: 1.6;
   font-size: 18px;
