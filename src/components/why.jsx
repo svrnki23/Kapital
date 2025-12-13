@@ -6,13 +6,13 @@ const why = () => {
         {
             icon: "💎",
             title: "Premium Fleet",
-            desc: "Access an exclusive collection of high-performance vehicles."
+            desc: "Access a garage reserved only for those who appreciate the extraordinary."
         },
 
         {
             icon: "⚡️",
             title: "Instant Booking",
-            desc: "Placeholder line, haven't thought of what to say here but have to say something."
+            desc: "Experience a seamless reservation process designed for your schedule."
         },
 
         {
