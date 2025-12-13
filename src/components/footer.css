@@ -1,7 +1,7 @@
 .footer-container{
     background-color: #050505;
     /* color: #a0a0a0; */
-    padding: 80px 20px 20px; /*paddning - top sides and bottom */
+    padding: 30px 10px; /*paddning - top sides and bottom */
     border-top: 1px solid rgba(255, 215, 0, 0.2);
     font-family: Didot;
 }
@@ -13,7 +13,7 @@
   flex-wrap: wrap; /* Stacks on mobile */
   justify-content: space-between;
   gap: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 /* Brand section */
@@ -56,7 +56,8 @@
 .footer-bottom-bar{
     text-align: center;
     border-top: 1px solid #1a1a1a;
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 2rem;
+    margin-bottom: -15px;
     color: #555;
 }

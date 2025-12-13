@@ -45,7 +45,7 @@ const Footer = () => {
                 <p className="shiny-gold">&copy; 2025 KAPITAL. All Rights Reserved.</p>
             </div>
         </footer>
-    )
+    );
 }
 
 

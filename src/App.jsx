@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Book from './components/book';
 import Footer from './components/Footer';
+import Why from './components/why';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       {/* /*placeholder to just visualize things, booking section below video isn't implemented yet */}
       <Book /> 
+      <Why />
       <Footer />
     </div>
     </>
