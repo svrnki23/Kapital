@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Navbar.css';
 
 const Navbar = ({ toggleSidebar }) => {
@@ -17,7 +18,10 @@ const Navbar = ({ toggleSidebar }) => {
 
             {/* Center section of the navbar */}
             <div className="nav-center">
-                <h1 className="shiny-gold">KAPITAL</h1>
+                {/* Wrapped h1 in a Link */}
+                <Link to="/" style={{ textDecoration: 'none' }}>
+                    <h1 className="shiny-gold">KAPITAL</h1>
+                </Link>
             </div>
 
             {/* Right section of the navbar */}

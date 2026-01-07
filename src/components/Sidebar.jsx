@@ -7,9 +7,9 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
     <aside className={`sidebar-container ${isOpen ? 'show-sidebar' : ''}`}>
       <ul className="sidebar-links">
         {/* Link back to Home */}
-        <li>
+        {/* <li>
           <Link to="/" onClick={toggleSidebar} className='shiny-gold'>Home</Link>
-        </li>
+        </li> */}
 
         {/* The New Separate Pages */}
         <li>
@@ -28,7 +28,6 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
 
 export default Sidebar;
 
-//remove home page and link home page to kapital - the title
 //rmeove the navbar black bar and have all navbar icons and text hover over the video
 
 //keep sidebar and navbar tranparent, to the top. 
