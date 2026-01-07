@@ -31,18 +31,6 @@ const Fleet = () => {
             car: "🛡️",
             title: "NISSAN ROGUE",
             desc: "Every rental includes comprehensive insurance and 24/7 roadside support."
-        },
-
-        {
-            car: "🛡️",
-            title: "TOYOTA CAMRY",
-            desc: "Every rental includes comprehensive insurance and 24/7 roadside support."
-        },
-
-        {
-            car: "🛡️",
-            title: "TOYOTA HIGHLANDER",
-            desc: "Every rental includes comprehensive insurance and 24/7 roadside support."
         }
 
     ];
