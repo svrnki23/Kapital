@@ -3,7 +3,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 400px;             /* Full width on mobile */
+  width: 375px;             /* Full width on mobile */
   height: 100%;            /* Full height */
   background: black;       /* Solid Black Background */
   display: flex;           /* Flexbox to center things */
@@ -42,6 +42,10 @@
 .sidebar-links {
   list-style: none;
   padding: 0;
+  margin: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   text-align: center;
   /* margin-bottom: 900px; */
 }
