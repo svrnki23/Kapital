@@ -1,0 +1,102 @@
+.why-section{
+    background-color: #050505;
+    padding: 95px;
+    /* margin-top: -20px; */
+    position: relative;
+}
+
+/* Header styling */
+.why-header {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: Didot;
+}
+
+.section-title {
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Didot;
+}
+
+.section-subtitle {
+    font-size: 25px;
+    font-weight: 400;
+    max-width: 600px;
+    margin: auto;
+    font-family: Didot;
+}
+
+/* Grid styling */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* --- CARD DESIGN --- */
+.feature-card {
+  background: rgba(20, 20, 20, 0.6); /* Semi-transparent dark grey */
+  border: 1px solid rgba(255, 255, 255, 0.05); /* Very subtle white border */
+  padding: 40px 30px;
+  border-radius: 16px;
+  text-align: center;
+  transition: all 0.4s ease;
+  font-family: Didot;
+}
+
+/* --- HOVER EFFECTS --- */
+.feature-card:hover {
+  transform: translateY(-10px); /* Float up when hovering*/
+  /* Gold Border Glow */
+  border-color: rgba(255, 215, 0, 0.5);
+}
+
+/* --- ICON STYLES --- */
+.icon-wrapper {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 25px;
+  transition: 0.4s;
+}
+
+.feature-icon {
+  font-size: 30px;
+  filter: grayscale(100%);
+  transition: 0.4s;
+}
+
+/* On hover, make the icon background Gold and show icon color */
+.feature-card:hover .icon-wrapper {
+  /* background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), transparent); */
+  border: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.feature-card:hover .feature-icon {
+  filter: grayscale(0%); 
+}
+
+/* --- TEXT STYLES --- */
+.feature-title {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: Didot;
+}
+
+.feature-desc {
+  line-height: 1.6;
+  font-size: 18px;
+  font-family: Didot;
+}
+
+/* /* removed the adaptive css code for now bcz it isn't working */ 

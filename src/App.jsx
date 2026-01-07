@@ -38,7 +38,7 @@ function App() {
         } />
 
         {/* SEPARATE PAGES: These load separately when clicked in Sidebar */}
-        <Route path="/garage" element={<Fleet />} />
+        <Route path="/fleet" element={<Fleet />} />
         <Route path="/checkin" element={<Checkin />} />
       </Routes>
 
