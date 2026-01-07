@@ -1,12 +1,12 @@
 import React from "react";
-import './checkin.css';
+import './fleet.css';
 
-const Checkin = () => {
+const Fleet = () => {
     return (
         <fleet>
-            
+
         </fleet>
     );
 }
 
-export default Checkin;
+export default Fleet;

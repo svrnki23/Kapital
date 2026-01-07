@@ -14,7 +14,7 @@
     align-items: center;
 
     /* styling */
-    z-index: 100; /*Layers the navbar on the top of the video*/
+    z-index: 10001; /*Layers the navbar on the top of the video*/
     background: black;
 }
 

@@ -1,14 +1,14 @@
 import React from "react";
 import './Navbar.css';
 
-const Navbar = () => {
+const Navbar = ({ toggleSidebar }) => {
     return (
 
         <nav className="navbar">
 
             {/* Left section of the navbar */}
             <div className="nav-left">
-                <button className="menu-btn" aria-label="Open Menu">
+                <button type="button" className="menu-btn" aria-label="Open Menu" onClick={toggleSidebar}>
                     <span className="hamburger-line"></span>
                     <span className="hamburger-line"></span>
                     <span className="hamburger-line"></span>
