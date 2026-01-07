@@ -88,3 +88,22 @@
     background-color: white;
     position: absolute;
 }
+
+/* Mobile Phones */
+@media (max-width: 768px) {
+  .hero-container {
+    /* Ensure background image is centered on mobile */
+    background-position: center center; 
+  }
+
+  .hero-title {
+    font-size: 2.5rem; /* Shrink the big title */
+    line-height: 1.2;
+    padding: 0 10px; /* Prevent text touching edges */
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+    max-width: 90%; /* Prevent it from being too wide */
+  }
+}
