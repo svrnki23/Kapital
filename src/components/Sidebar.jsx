@@ -25,7 +25,6 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
 
 export default Sidebar;
 
-//move links to the top. 
 //move profile icon to next to menu after hovering - make it like the omega website that was sent
 
 
