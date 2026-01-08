@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
 .navbar{
     /* positioning of the navbar */
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -15,7 +15,7 @@
 
     /* styling */
     z-index: 10001; /*Layers the navbar on the top of the video*/
-    background: black;
+    background: transparent; /* to make sure everything of the nav bar sits on top of the video layer */
 }
 
 .nav-left{

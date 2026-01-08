@@ -1,4 +1,4 @@
-.why-section{
+.car-section{
     background-color: #050505;
     padding: 95px;
     /* margin-top: -20px; */
@@ -6,7 +6,7 @@
 }
 
 /* Header styling */
-.why-header {
+.car-header {
     text-align: center;
     margin-bottom: 50px;
     font-family: Didot;
@@ -30,7 +30,7 @@
 }
 
 /* Grid styling */
-.features-grid {
+.cars-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
@@ -68,7 +68,7 @@
   transition: 0.4s;
 }
 
-.feature-icon {
+.car-icon {
   font-size: 30px;
   filter: grayscale(100%);
   transition: 0.4s;
@@ -85,7 +85,7 @@
 }
 
 /* --- TEXT STYLES --- */
-.feature-title {
+.car-title {
   font-size: 1.3rem;
   margin-bottom: 15px;
   font-weight: 600;
@@ -93,7 +93,7 @@
   font-family: Didot;
 }
 
-.feature-desc {
+.car-desc {
   line-height: 1.6;
   font-size: 18px;
   font-family: Didot;

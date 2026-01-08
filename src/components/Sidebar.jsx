@@ -16,9 +16,6 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
           <Link to="/fleet" onClick={toggleSidebar} className='shiny-gold'>The Fleet</Link>
         </li>
         <li>
-          <Link to="/checkin" onClick={toggleSidebar} className='shiny-gold'>Placeholder</Link>
-        </li>
-        <li>
           <Link to="/story" onClick={toggleSidebar} className='shiny-gold'>About Us</Link>
         </li>
       </ul>
@@ -28,9 +25,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
 
 export default Sidebar;
 
-//rmeove the navbar black bar and have all navbar icons and text hover over the video
-
-//keep sidebar and navbar tranparent, to the top. 
+//move links to the top. 
 //move profile icon to next to menu after hovering - make it like the omega website that was sent
 
 

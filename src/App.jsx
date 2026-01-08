@@ -12,7 +12,6 @@ import Footer from './components/Footer';
 
 //placeholder for next pages to be built
 import Fleet from './pages/fleet';
-import Checkin from './pages/checkin';
 
 
 function App() {
@@ -39,7 +38,6 @@ function App() {
 
         {/* SEPARATE PAGES: These load separately when clicked in Sidebar */}
         <Route path="/fleet" element={<Fleet />} />
-        <Route path="/checkin" element={<Checkin />} />
       </Routes>
 
       <Footer />

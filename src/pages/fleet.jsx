@@ -36,20 +36,20 @@ const Fleet = () => {
     ];
 
     return (
-        <section className="why-section" id="services">
-            <div className="why-header">
+        <section className="car-section" id="services">
+            <div className="car-header">
                 <h2 className="section-title shiny-gold">THE FLEET</h2>
                 <p className="section-subtitle shiny-gold">Arrive in style. Experience our premium collection. </p>
             </div>
 
-            <div className="features-grid">
+            <div className="cars-grid">
                 {features.map((item, index) => (
                 <div className="feature-card" key={index}>
                     <div className="icon-wrapper">
-                    <span className="feature-icon">{item.icon}</span>
+                    <span className="car-icon">{item.icon}</span>
                     </div>
-                    <h3 className="feature-title shiny-gold">{item.title}</h3>
-                    <p className="feature-desc shiny-gold">{item.desc}</p>
+                    <h3 className="car-title shiny-gold">{item.title}</h3>
+                    <p className="car-desc shiny-gold">{item.desc}</p>
                 </div>
                 ))}
             </div>
